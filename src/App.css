@@ -1,10 +1,65 @@
+/*
+colors:
+rgb(242,241,241) // light gray
+rgb(52,13,64) // dark gray
+*/
+
+
 .App {
+  background-image: url(https://wallpapercave.com/wp/wp6425280.jpg);
+  background-repeat: repeat-y; /* repeats background vertically */
+  opacity: 1;
+  color:rgb(242,241,241);
   text-align: center;
+  background-position: top;
+  background-attachment: fixed; /* could also do scroll to make background scroll with content */
+}
+
+/*what does the "." do?*/
+.HeaderRow {
+  /* background-color:rgb(242,241,241); */
+  /*color:rgb(52,13,64);*/
+  color: orange;
+  display: flex;
+  padding: 0 0 40px 80px;
+}
+
+.HeaderRow span {
+  text-align: left;
+  display:block;
+  padding: 0px 10px 0px 10px;
+  border-style: solid;
+  border-bottom-color: white;
+  color: white;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100vmin;
   pointer-events: none;
+}
+
+.App .SecretReveal {
+  visibility: visible;
+}
+
+.App .SecretHid {
+  visibility: hidden;
+}
+
+.App-WyattTree {
+  width: 100px;
+  /*
+  border-right: 15px solid rgb(94,154,128);
+  border-bottom: 15px solid black;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  */
+  color: blue;
+  box-shadow: 10px 10px 0 rgb(85,130,133);
+}
+
+.App-WyattTree:hover {
+  width: 120px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +69,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +82,7 @@
   color: #61dafb;
 }
 
+/*
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +91,4 @@
     transform: rotate(360deg);
   }
 }
+*/
