@@ -6,13 +6,15 @@ rgb(52,13,64) // dark gray
 
 
 .App {
-  background-image: url(https://wallpapercave.com/wp/wp6425280.jpg);
-  background-repeat: repeat-y; /* repeats background vertically */
-  opacity: 1;
+  background-image: url(https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OPIWPJSIGII6VENLZZBZVJOHYE.jpg);
+  /* background-repeat: repeat-y;  repeats background vertically */
+  background-size: 100%;
   color:rgb(242,241,241);
   text-align: center;
   background-position: top;
   background-attachment: fixed; /* could also do scroll to make background scroll with content */
+  padding: 0 0 10px 0;
+  display:block;
 }
 
 /*what does the "." do?*/

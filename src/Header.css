@@ -1,0 +1,16 @@
+.Header {
+    text-align: left;
+    background-color: rgb(30, 40, 40);
+    padding: 10px 0 10px 10%;
+}
+
+.Header-Image {
+    height: 200px;
+    border-radius: 50%;
+    align: right;
+    /* give square image for good circle */
+}
+
+p .Header {
+    display: inline-block;
+}
