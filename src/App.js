@@ -6,6 +6,7 @@ import WyattChairlift from './wyattchairlift.jpg';
 
 import './App.css'; //colors: https://www.color-hex.com/color-palette/7018
 import Header from './Header.js';
+import JobExperience from './JobExperience';
 
 
 const Button = ({action, text}) => {
@@ -44,6 +45,7 @@ const App = () => {
       <Button action={handleReveal} text="hide/reveal"/>
       <p>Reveal's value: {reveal.toString()}</p>
       {reveal ? <p>I miss my friends</p> : <br />}
+      <JobExperience />
     </div>
   );
 }
@@ -51,8 +53,7 @@ const App = () => {
 export default App;
 
 /*
-trash HTML
-<SecretNote bool={reveal} note="I miss my friends!" />
+trash HTML heap
 
 <div className="HeaderRow">
         <span>  
