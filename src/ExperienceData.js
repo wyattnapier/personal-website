@@ -83,7 +83,7 @@ export const education = [
     {
         school: "Woodstock Union High School",
         town: "Woodstock",
-        state: "Vermont",
+        state: "VT",
         startDate: "August, 2018",
         endDate: "June, 2022",
         GPA: "4.00",

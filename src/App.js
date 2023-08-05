@@ -7,6 +7,7 @@ import WyattChairlift from './wyattchairlift.jpg';
 import './App.css'; //colors: https://www.color-hex.com/color-palette/7018
 import Header from './Header.js';
 import JobExperience from './JobExperience';
+import Education from './Education';
 
 
 const Button = ({action, text}) => {
@@ -46,6 +47,7 @@ const App = () => {
       <p>Reveal's value: {reveal.toString()}</p>
       {reveal ? <p>I miss my friends</p> : <br />}
       <JobExperience />
+      <Education />
     </div>
   );
 }
