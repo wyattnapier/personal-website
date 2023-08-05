@@ -9,8 +9,16 @@ export default function JobExperience () {
             {workExperience.map((job) => (
                 <ul>
                     <li key={job.jobTitle}>
-                        <h1>{job.company} | {job.town}, {job.state}</h1>
-                        <h2>{job.jobTitle}</h2>
+                        <h2>{job.company} | {job.town}, {job.state}</h2>
+                        <h3>{job.jobTitle}</h3>
+                        <h5>{job.type}: {job.startDate} - {job.endDate}</h5>
+                        {job.description.map((entry => (
+                            <li>
+                                <body>{entry}</body>
+                            </li>
+                        )))}
+                        {job.showReference ? 
+                        <body>{job.referenceName}: {job.referenceContact}</body> : <div></div>}
                     </li>
                 </ul>
             ))}
