@@ -17,7 +17,6 @@ export default function Extracurr () {
                     </li>
                 </ul>
             ))}
-            rahhhhh so extra
         </div>
     )
 }
