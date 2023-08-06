@@ -95,9 +95,9 @@ export const education = [
     }
 ]
 
-export const extracurriculars = [
+export const extras = [
     {
-        organization: "BostonHacks",
+        org: "BostonHacks",
         town: "Boston",
         state: "MA",
         role: "Logistics Organizer",
@@ -110,7 +110,7 @@ export const extracurriculars = [
         ]
     },
     {
-        organization: "Boston University Barbell",
+        org: "Boston University Barbell",
         town: "Boston",
         state: "MA",
         role: "Club Member",
@@ -121,7 +121,7 @@ export const extracurriculars = [
         ]
     },
     {
-        organization: "Change the World Kids",
+        org: "Change the World Kids",
         town: "Woodstock",
         state: "VT",
         role: "Volunteer",
@@ -164,7 +164,7 @@ export const extracurriculars = [
 }
 
 // extracurricular experience data outline
-{    organization: ,
+{    org: ,
     town: ,
     state: ,
     role: ,

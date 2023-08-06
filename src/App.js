@@ -8,6 +8,7 @@ import './App.css'; //colors: https://www.color-hex.com/color-palette/7018
 import Header from './Header.js';
 import JobExperience from './JobExperience';
 import Education from './Education';
+import Extracurr from './Extracurr';
 
 
 const Button = ({action, text}) => {
@@ -46,8 +47,12 @@ const App = () => {
       <Button action={handleReveal} text="hide/reveal"/>
       <p>Reveal's value: {reveal.toString()}</p>
       {reveal ? <p>I miss my friends</p> : <br />}
+      <hr />
       <JobExperience />
+      <hr />
       <Education />
+      <hr />
+      <Extracurr />
     </div>
   );
 }
